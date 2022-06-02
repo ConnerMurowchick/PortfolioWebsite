@@ -1,0 +1,503 @@
+ /* Style the tab */
+ @font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('fonts/MYRIADPRO-REGULAR.woff') format('woff');
+  }
+  @font-face {
+  font-family: 'Myriad Pro Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Condensed'), url('fonts/MYRIADPRO-COND.woff') format('woff');
+  }
+  @font-face {
+  font-family: 'Myriad Pro Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Condensed Italic'), url('fonts/MYRIADPRO-CONDIT.woff') format('woff');
+  }
+  @font-face {
+  font-family: 'Myriad Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Light'), url('fonts/MyriadPro-Light.woff') format('woff');
+  }
+  @font-face {
+  font-family: 'Myriad Pro Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold'), url('fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
+  }
+  @font-face {
+  font-family: 'Myriad Pro Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold Italic'), url('fonts/MYRIADPRO-SEMIBOLDIT.woff') format('woff');
+  }
+  @font-face {
+  font-family: 'Myriad Pro Bold Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Condensed'), url('fonts/MYRIADPRO-BOLDCOND.woff') format('woff');
+  }
+  @font-face {
+  font-family: 'Myriad Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold'), url('fonts/MYRIADPRO-BOLD.woff') format('woff');
+  }
+  @font-face {
+  font-family: 'Myriad Pro Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Italic'), url('fonts/MYRIADPRO-BOLDIT.woff') format('woff');
+  }
+  @font-face {
+  font-family: 'Myriad Pro Bold Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Condensed Italic'), url('fonts/MYRIADPRO-BOLDCONDIT.woff') format('woff');
+  }
+
+div {
+  text-align: center;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%
+}
+html {
+  height: 100%
+}
+.parent{
+  display:contents;
+}
+#IMSVideo {
+  position: absolute;
+  left: 820px;
+  top: 20px;
+}
+#HDPVideo {
+  position: absolute;
+  left: 820px;
+  top: 330px;
+}
+.skillBox{
+  background-color: #747072;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  left:  430px;
+  top: 55px;
+  font-family: "Myriad Pro Regular";
+  font-size: 150%;
+}
+#skillbox1 {
+  position: absolute;
+  left:  430px;
+  top: 55px;
+}
+#skillbox2 {
+  position: absolute;
+  left: 430px;
+  top: 375px;
+  width: 220px;
+}
+#skillbox3 {
+  position: absolute;
+  left: 660px;
+  top: 375px;
+}
+#skillbox4{
+  position: absolute;
+  left:  540px;
+  top: 55px;
+}
+#skillbox5 {
+  position: absolute;
+  left:  430px;
+  top: 735px;
+}
+
+#skillbox6 {
+  position: absolute;
+  left:  430px;
+  top: 700px;
+}
+#skillbox7 {
+  position: absolute;
+  left:  540px;
+  top: 700px;
+}
+#skillbox8 {
+  position: absolute;
+  left:  650px;
+  top: 700px;
+}
+#skillbox9 {
+  position: absolute;
+  left:  540px;
+  top: 735px;
+}
+
+.IMSparent {
+  display:contents;
+}
+.IMSparent:hover .imageIMS2{
+  visibility: hidden;
+}
+.imageIMS {
+  position:relative; 
+  bottom: -240px !important;
+  right: -119px !important; 
+}
+.imageIMS2 {
+  position:relative; 
+  bottom: -240px !important; 
+  right: -45px !important;
+}
+.HDPparent {
+  display:contents;
+}
+.HDPparent:hover .imageHDP2{
+  visibility: hidden;
+}
+.imageHDP {
+  position:relative; 
+  bottom: -565px !important;
+  right: 25px !important; 
+}
+.imageHDP2 {
+  position:relative; 
+  bottom: -565px !important; 
+  right: 99px !important;
+}
+
+.webParent2 {
+ display:contents;
+ visibility:unset
+}
+.webParent2:hover .imageWEB4{
+  visibility: hidden;
+  position: static;
+  bottom: 500px;
+}
+.imageWEB3 {
+  position: relative; 
+  bottom: -890px ;
+  right: 240px ; 
+}
+.imageWEB4 {
+  position:relative; 
+  bottom: -890px !important;
+  right: 314px !important; 
+}
+
+
+.webParent {
+  display:contents;
+}
+.webParent:hover .imageWEB2{
+  visibility: hidden;
+}
+.imageWEB {
+  position:relative; 
+  bottom: -890px !important;
+  right:170px !important; 
+}
+.imageWEB2 {
+  position:relative; 
+  bottom: -890px !important; 
+  right: 244px !important;
+}
+
+
+.parent:hover .image2{
+ visibility: hidden;
+}
+.image1 {
+  position:relative; 
+  bottom: 250px !important;
+  right:-170px !important; 
+}
+.image2 {
+  position:relative; 
+  bottom: 250px !important; 
+  right:-51px !important;
+}
+.Lparent{
+  display:contents;
+}
+.Lparent:hover .Limage2{
+  visibility: hidden;
+}
+.Limage1 {
+  position:relative; 
+  bottom: 250px !important;
+  right:-60px !important; 
+}
+.Limage2 {
+  position:relative; 
+  bottom: 250px !important; 
+  right: 59px !important;
+}
+.Mparent{
+  display:contents;
+}
+.Mparent:hover .Mimage2{
+  visibility: hidden;
+}
+.Mimage1 {
+  position:relative; 
+  bottom: 250px !important;
+  right: 51px !important; 
+  cursor: pointer;
+}
+.Mimage2 {
+  position:relative; 
+  bottom: 250px !important; 
+  right: 170px !important;
+}
+#imsPic {
+  position:absolute; top: 15px; left: 15px; 
+}
+#imsTitle {
+  color: #c3c3c3;
+  position:absolute; top: -20px; left: 430px; 
+  font-family: "Myriad Pro Bold";
+  font-size: 195%
+}
+#imsParagraph {
+  color: #c3c3c3;
+  position:absolute; top: 67px; left: 430px;
+  text-align: left;
+  font-size: 155%;
+  font-family: "Arial";
+}
+#hdpPic {
+  position:absolute; top: 340px; left: 15px; 
+}
+#hdpTitle {
+  color: #c3c3c3;
+  position:absolute; top: 300px; left: 430px; 
+  font-family: "Myriad Pro Bold";
+  font-size: 195%
+}
+#hdpParagraph {
+  color: #c3c3c3;
+  position:absolute; top: 385px; left: 430px;
+  text-align: left;
+  font-size: 155%;
+  font-family: "Arial";
+}
+
+#webImg {
+  position: absolute; top: 665px; left: 15px;
+}
+#webTitle{
+  color: #c3c3c3;
+  position:absolute; top: 628px; left: 430px; 
+  font-family: "Myriad Pro Bold";
+  font-size: 195%
+}
+#webParagraph{
+  color: #c3c3c3;
+  position:absolute; 
+  top: 745px; 
+  left: 430px;
+  text-align: left;
+  font-size: 155%;
+  font-family: "Arial";
+}
+
+#Projects {
+  height: 980px;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #37383a;
+  position:relative; bottom: 150px;
+
+}
+#ContactBox {
+  height: 405px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: black;
+  position:relative; bottom: 0px;
+
+}
+
+button.tablinks {
+
+  font-family: "Myriad Pro Regular";
+}
+h2 {
+  font-size: 450%;
+  color: #c3c3c3;
+  font-family: 'Myriad Pro Bold';
+  position:relative; bottom: 120px;;
+}
+h1 {
+
+  font-size: 900%;
+  text-align: center;
+  color: #c3c3c3;
+  font-weight: 0;
+  font-family: 'Myriad Pro Bold';
+
+}
+button {
+
+    font-family:'Courier New', Courier, monospace;
+    font-size: 150%;
+}
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: #37383a;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: #298d56;
+  float: right;
+  border: none;
+  outline: 1px solid #000000;
+  cursor: pointer;
+  width: 9em;
+  height: 3.5em;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  
+}
+/* Create an active/current tablink class */
+.tab button.active {
+  
+  background-color: #29798d;
+  color: red
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  /*padding: 6px 12px; */
+  border: none;
+  border-top: none;
+} 
+.tabcontent > span:first-child {
+  color:#c3c3c3;
+  position: absolute;
+  font-family: "Myriad Pro Regular";
+  font-size: 200%;
+  top: -165px;
+  left: 80px;
+}
+.tabcontent > span:last-of-type {
+  color:#c3c3c3;
+  position: absolute;
+  font-family: "Myriad Pro Regular";
+  font-size: 120%;
+  top: -130px;
+  left: 82px;
+}
+.tabcontent #iconImage {
+  position: absolute;
+  top: -177px;
+  left: 2px;
+}
+/*
+CONTACT TAB BELOW
+*/
+#AboutBox {
+  height: 700px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: #37383a;
+  position:relative; 
+  bottom: 150px;
+}
+.elem-group {
+  color: #c3c3c3;
+  font-size: 200%;
+  font-family: "Myriad Pro Regular";
+  position: relative;
+  top: 0px;
+}
+#messageBox {
+  width: 350px;
+  height: 200px;
+  position: relative;
+  left: 10px;
+  resize: none;
+}
+#contactButton {
+  font-family: "Arial";
+  color: black;
+  position: absolute;
+  bottom: 5px;
+  left: 113px;
+}
+#contactParagraph {
+  font-family: "Myriad Pro Regular";
+  color: #c3c3c3;
+  position: relative;
+  bottom: -10px;
+  font-size: 200%;
+}
+#elem3 {
+  position: relative;
+  left: 5px;
+}
+#elem4{
+  position: relative;
+  left: -10px;
+  bottom: -10px;
+}
+#Contact {
+  min-height: 100%;
+  position: relative; 
+}
+
+/*
+ABOUT TAB BELOW
+*/
+#About {
+
+  min-height: 100%;
+  position: relative;
+}
+.aboutParagraph {
+  color: #c3c3c3;
+  position:absolute; top: -15px; left: 0px;
+  font-size: 170%;
+  font-family: "Arial";
+  text-align: left;
+  padding-left: 15px;
+}
+#Home {
+  
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 150px;
+}
+.footer {
+  background-color: #37383a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+}
+.footer > span {
+  padding: 5px;
+  position: absolute;
+  bottom: 0px;
+  color: #c3c3c3;
+  font-family: "Myriad Pro Bold";
+  bottom: 0;
+  left: 0;
+}
