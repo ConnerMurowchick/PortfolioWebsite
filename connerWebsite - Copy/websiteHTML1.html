@@ -2,27 +2,40 @@
 <html lang = "en">
     <head>
     <meta charset = "UTF-8">
+    <meta name = "viewport" content= "width=device-width, initial-scale=1">
     <title> Conner Murowchick | Portfolio </title>
     <link rel="icon" type ="image/x-icon" href = "/ImagesWebsite/CMlogo.png">
-    <link rel ="stylesheet" href="websiteCSS.css">
+    
+    
+
+    <link rel="preload" href="websiteCSS.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="websiteCSS.css"></noscript>
+    <!--<link rel ="stylesheet" href="websiteCSS.css">-->
     <script src = "websiteJS.js"></script>
     <script>
-    document.getElementById('startup')[0].click()
+    //document.getElementById('startup')[0].click()
     </script>
     </head>
 
   <body style = "background-color:#1e1f1f ">
 
+<!--  
+PHP GOES HERE
+PHP
+PHP
+PHP
+--> 
+
 <div id = "buttonText" style = "position:relative; bottom: 8px;" class="tab">
   <button id = "startup" class="tablinks" onclick="openTab(event, 'Contact')"> 
-    <img src = "ImagesWebsite\contact.png" height = "30px"> Contact</button>
+    <img src = "ImagesWebsite\contact.webp" height = "30px"> Contact</button>
 
   <button class="tablinks" onclick="openTab(event, 'About')"> 
-    <img src = "ImagesWebsite\about.png" height = "30px"> About</button>
+    <img src = "ImagesWebsite\about.webp" height = "30px"> About</button>
 
   <button class="tablinks" class = "active" onclick="openTab(event, 'Home')"> 
     <img style = "position:relative; top: 5px;"
-    src = "ImagesWebsite\home.png" height = "30px"> Home</button>
+    src = "ImagesWebsite\home.webp" height = "30px"> Home</button>
 </div>
 
 <!-- Tab content -->
@@ -30,7 +43,7 @@
   <span class = "CM"> Conner Murowchick </span>
   <span class = "SE"> Software Engineer </span>
   <img id = "iconImage" 
-  src = "ImagesWebsite/CMlogo.png" alt = "logo" width = "70" height = "70"/>
+  src = "ImagesWebsite/CMlogo.webp" alt = "logo" width = "70" height = "70"/>
   <h1>Contact</h1>
   <p> " "</p>
   <div id="AboutBox">
@@ -68,7 +81,7 @@
   <span class = "CM"> Conner Murowchick </span>
   <span class = "SE"> Software Engineer </span>
   <img id = "iconImage" 
-  src = "ImagesWebsite/CMlogo.png" alt = "logo" width = "70" height = "70"/>
+  src = "ImagesWebsite/CMlogo.webp" alt = "logo" width = "70" height = "70"/>
   <h1>About Me</h1>
   <p>" "</p>
   <div id="AboutBox">
@@ -88,23 +101,23 @@
   <span class = "CM"> Conner Murowchick </span>
   <span class = "SE"> Software Engineer </span>
   <img id = "iconImage" 
-  src = "ImagesWebsite/CMlogo.png" alt = "logo" width = "70" height = "70"/>
+  src = "ImagesWebsite/CMlogo.webp" alt = "logo" width = "70" height = "70"/>
   <h1>Hi, I’m <br> </h1>
   <h1 style = "position:relative; bottom: 150px;"> Conner</h1>
     <div class = "parent">
       <a href = "https://github.com/ConnerMurowchick" id = "icon1" target="_blank" rel="noopener noreferrer">
         <img class = "image1"
-        src = "ImagesWebsite\github2.png" alt = "github" width = "115" height = "115"/>
+        src = "ImagesWebsite\github2.webp" alt = "github" width = "115" height = "115"/>
         <img class = "image2" 
-        src = "ImagesWebsite\github1.png" alt = "github2" width = "115" height = "115"/>
+        src = "ImagesWebsite\github1.webp" alt = "github2" width = "115" height = "115"/>
       </a>
     </div>
     <div class = "Lparent">
       <a href = "https://www.linkedin.com/in/conner-murowchick/" class = "icon" target="_blank" rel="noopener noreferrer">
         <img class = "Limage1" style = "position:relative; bottom: 250px;" 
-        src = "ImagesWebsite\linkedin2.png" alt = "linkedin" width = "115" height = "115">
+        src = "ImagesWebsite\linkedin2.webp" alt = "linkedin" width = "115" height = "115">
         <img class = "Limage2" style = "position:relative; bottom: 250px;" 
-        src = "ImagesWebsite\linkedin1.png" alt = "linkedin2" width = "115" height = "115">
+        src = "ImagesWebsite\linkedin1.webp" alt = "linkedin2" width = "115" height = "115">
       </a>
     </div>
     <div class = "Mparent">
@@ -117,15 +130,15 @@
       </a>
       !-->
         <img class = "Mimage1" onclick ="openTab(event, 'Contact')" 
-        src = "ImagesWebsite\maill2.png"  alt = "mail" width = "115" height = "115">
+        src = "ImagesWebsite\maill2.webp"  alt = "mail" width = "115" height = "115">
         <img class = "Mimage2"
-        src = "ImagesWebsite\mail1.png" alt = "mail2" width = "115" height = "115">
+        src = "ImagesWebsite\mail1.webp" alt = "mail2" width = "115" height = "115">
     </div>
     <!--onclick ="openTab(event, 'Contact')"
       !-->
   <h2> My Projects </h2>
   <div id = "Projects">
-     <img id = "imsPic" src = "ImagesWebsite\inventoryPic.png" alt = "inventory"  width = 33%; height = 31%;>
+     <img id = "imsPic" src = "ImagesWebsite\inventoryPic.webp" alt = "inventory"  width = 33%; height = 31%;>
      <p id = "imsTitle"> Inventory Management GUI</p>
      <div class ="skillBox" id = "skillbox1">Java</div> 
      <div class ="skillBox" id = "skillbox4">UI/UX</div>
@@ -140,14 +153,14 @@
       
      </p>
      <div class = "IMSparent">
-      <a href = "https://github.com/ConnerMurowchick/Inventory-Management-System" id = "icon1" target="_blank" rel="noopener noreferrer">
+      <a href = "https://github.com/ConnerMurowchick/Inventory-Management-System" id = "icon" target="_blank" rel="noopener noreferrer">
         <img class = "imageIMS"
-        src = "ImagesWebsite\github2.png" alt = "github" width = "70" height = "70"/>
+        src = "ImagesWebsite\github2.webp" alt = "github" width = "70" height = "70"/>
         <img class = "imageIMS2" 
-        src = "ImagesWebsite\github1.png" alt = "github2" width = "70" height = "70"/>
+        src = "ImagesWebsite\github1.webp" alt = "github2" width = "70" height = "70"/>
       </a>
      </div>
-     <img id = "hdpPic" src = "ImagesWebsite\nnwPic.png" alt = "HeartDisease"  width = 33%; height = 31%;>
+     <img id = "hdpPic" src = "ImagesWebsite\nnwPic.webp" alt = "HeartDisease"  width = 33%; height = 31%;>
      <p id = "hdpTitle"> Heart Disease Prediction</p>
      <div class="skillBox" id = "skillbox2">Jupyter Notebooks</div>
      <div class="skillBox" id = "skillbox3">Python</div>
@@ -162,16 +175,16 @@
       disease. 
      </p>
      <div class = "HDPparent">
-      <a href = "https://github.com/ConnerMurowchick/heart-disease-prediction" id = "icon1" target="_blank" rel="noopener noreferrer">
+      <a href = "https://github.com/ConnerMurowchick/heart-disease-prediction" id = "icon" target="_blank" rel="noopener noreferrer">
         <img class = "imageHDP"
-        src = "ImagesWebsite\github2.png" alt = "github" width = "70" height = "70"/>
+        src = "ImagesWebsite\github2.webp" alt = "github" width = "70" height = "70"/>
         <img class = "imageHDP2" 
-        src = "ImagesWebsite\github1.png" alt = "github2" width = "70" height = "70"/>
+        src = "ImagesWebsite\github1.webp" alt = "github2" width = "70" height = "70"/>
       </a>
      </div>
 
      
-     <img id = "webImg" src = "ImagesWebsite\webDesignImg.png" alt = "Web Design Image"  width = 33%; height = 31%;>
+     <img id = "webImg" src = "ImagesWebsite\webDesignImg.webp" alt = "Web Design Image"  width = 33%; height = 31%;>
      <p id = "webTitle"> Portfolio Website</p>
      <div class = "skillBox" id = "skillbox5">HTML5</div>
      <div class = "skillBox" id = "skillbox6">Javascript</div>
@@ -184,19 +197,19 @@
       show off my personal projects.  <br>
      </p>
      <div class = "webParent">
-        <a href = "https://github.com/ConnerMurowchick/heart-disease-prediction" id = "icon1" target="_blank" rel="noopener noreferrer">
+        <a href = "https://github.com/ConnerMurowchick/heart-disease-prediction" id = "icon" target="_blank" rel="noopener noreferrer">
           <img class = "imageWEB"
-          src = "ImagesWebsite\github2.png" alt = "github" width = "70" height = "70"/>
+          src = "ImagesWebsite\github2.webp" alt = "github" width = "70" height = "70"/>
           <img class = "imageWEB2" 
-          src = "ImagesWebsite\github1.png" alt = "github2" width = "70" height = "70"/>
+          src = "ImagesWebsite\github1.webp" alt = "github2" width = "70" height = "70"/>
         </a>
       </div>
       <div class = "webParent2">
-        <a href = "https://connermurowchick.com" id = "icon2" target="_blank" rel="noopener noreferrer">
+        <a href = "https://connermurowchick.com" id = "icon" target="_blank" rel="noopener noreferrer">
           <img class = "imageWEB3"
-          src = "ImagesWebsite\play1.png" alt = "play2" width = "70" height = "70"/>
+          src = "ImagesWebsite\play1.webp" alt = "play2" width = "70" height = "70"/>
           <img class = "imageWEB4" 
-          src = "ImagesWebsite\play2.png" alt = "play1" width = "70" height = "70"/>
+          src = "ImagesWebsite\play2.webp" alt = "play1" width = "70" height = "70"/>
         </a>
       </div>
 
