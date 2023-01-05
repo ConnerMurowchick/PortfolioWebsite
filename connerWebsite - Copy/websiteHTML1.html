@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang = "en">
-    <head>
+  <head>
     <meta charset = "UTF-8">
     <meta name = "viewport" content= "width=device-width, initial-scale=1">
     <title> Conner Murowchick | Portfolio </title>
     <link rel="icon" type ="image/x-icon" href = "/ImagesWebsite/CMlogo.png">
     <link rel="preload" href="websiteCSS.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="websiteCSS.css"></noscript>
-    <!--<link rel ="stylesheet" href="websiteCSS.css">-->
     <script src = "websiteJS.js"></script>
-    <script>
-    //document.getElementById('startup')[0].click()
-    </script>
-    </head>
-
+  </head>
   <body style = "background-color:#1e1f1f ">
     <!--  
     PHP GOES HERE
@@ -34,33 +29,32 @@
     <div id="Contact" class="tabcontent">
       <span class = "CM"> Conner Murowchick </span>
       <span class = "SE"> Software Engineer </span>
-      <img id = "iconImage" 
-      src = "ImagesWebsite/CMlogo.webp" alt = "logo" width = "70" height = "70"/>
+      <img id = "iconImage" src = "ImagesWebsite/CMlogo.webp" alt = "logo" width = "70" height = "70"/>
       <h1>Contact</h1>
       <p> " "</p>
       <div id="AboutBox">
         <p id = "contactParagraph">Email me at "murowchick.conner@gmail.com" <br> or fill out the contact 
           form below: <br>   
-        <div id="ContactBox">
-          <form action="index.php"  onsubmit="submitForm();" target="iframe1">
-            <div class="elem-group">
-              <label for="name">Your Name:</label>
-              <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
-            </div>
-            <div class="elem-group">
-              <label for="email">Your E-mail:</label>
-              <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
-            </div>
-            <div class="elem-group" id="elem3">
-              <label for="title">Email Title:</label>
-              <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" pattern=[A-Za-z0-9\s]{8,60}>
-            </div>
-            <div class="elem-group" id = "elem4">
-              <label for="message">Your message:</label>
-              <textarea id = "messageBox" name="visitor_message" placeholder="Say whatever you want." required> </textarea>
-            </div>
-            <button type="submit" name = "button1" id = "contactButton">Send Message</button>
-          </form>
+          <div id="ContactBox">
+            <form action="index.php"  onsubmit="submitForm();" target="iframe1">
+              <div class="elem-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+              </div>
+              <div class="elem-group">
+                <label for="email">Your E-mail:</label>
+                <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+              </div>
+              <div class="elem-group" id="elem3">
+                <label for="title">Email Title:</label>
+                <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" pattern=[A-Za-z0-9\s]{8,60}>
+              </div>
+              <div class="elem-group" id = "elem4">
+                <label for="message">Your message:</label>
+                <textarea id = "messageBox" name="visitor_message" placeholder="Say whatever you want." required> </textarea>
+              </div>
+              <button type="submit" name = "button1" id = "contactButton">Send Message</button>
+            </form>
           </div>                   
         </p>
       </div>
@@ -87,12 +81,10 @@
         <span> Copyright @2022. All rights reserved.</span>
       </footer>
     </div>
-
     <div id="Home" class="tabcontent" style = "display:block">
       <span class = "CM"> Conner Murowchick </span>
       <span class = "SE"> Software Engineer </span>
-      <img id = "iconImage" 
-      src = "ImagesWebsite/CMlogo.webp" alt = "logo" width = "70" height = "70"/>
+      <img id = "iconImage" src = "ImagesWebsite/CMlogo.webp" alt = "logo" width = "70" height = "70"/>
       <h1>Hi, I’m <br> </h1>
       <h1 style = "position:relative; bottom: 150px;"> Conner</h1>
         <div class = "parent">
@@ -112,21 +104,11 @@
           </a>
         </div>
         <div class = "Mparent">
-          <!--
-          <a href = "" class = "icon">
-            <img class = "Mimage1" 
-            src = "ImagesWebsite\maill2.png"  alt = "mail" width = "115" height = "115">
-            <img class = "Mimage2"
-            src = "ImagesWebsite\mail1.png" alt = "mail2" width = "115" height = "115">
-          </a>
-          !-->
             <img class = "Mimage1" onclick ="openTab(event, 'Contact')" 
             src = "ImagesWebsite\maill2.webp"  alt = "mail" width = "115" height = "115">
             <img class = "Mimage2"
             src = "ImagesWebsite\mail1.webp" alt = "mail2" width = "115" height = "115">
         </div>
-        <!--onclick ="openTab(event, 'Contact')"
-          !-->
       <h2> My Projects </h2>
       <div id = "Projects">
         <img id = "imsPic" src = "ImagesWebsite\inventoryPic.webp" alt = "inventory"  width = 33%; height = 31%;>
@@ -185,7 +167,7 @@
           created a website from scratch to <br>  
           show off my personal projects.  <br>
         </p>
-        <div class = "webParent">
+          <div class = "webParent">
             <a href = "https://github.com/ConnerMurowchick/heart-disease-prediction" id = "icon" target="_blank" rel="noopener noreferrer">
               <img class = "imageWEB"
               src = "ImagesWebsite\github2.webp" alt = "github" width = "70" height = "70"/>
