@@ -54,7 +54,7 @@ a:-webkit-any-link {
   left:  430px;
   top: 55px;
   font-family: "Myriad Pro Regular";
-  font-size: 150%;
+  font-size: 24px;
 }
 #skillbox1 {
   position: absolute;
@@ -222,13 +222,13 @@ a:-webkit-any-link {
   color: #c3c3c3;
   position:absolute; top: -20px; left: 430px; 
   font-family: "Myriad Pro Bold";
-  font-size: 195%
+  font-size: 31.2px
 }
 #imsParagraph {
   color: #c3c3c3;
   position:absolute; top: 67px; left: 430px;
   text-align: left;
-  font-size: 155%;
+  font-size: 24.8px;
   font-family: "Arial";
 }
 #hdpPic {
@@ -238,13 +238,13 @@ a:-webkit-any-link {
   color: #c3c3c3;
   position:absolute; top: 300px; left: 430px; 
   font-family: "Myriad Pro Bold";
-  font-size: 195%
+  font-size: 31.2px
 }
 #hdpParagraph {
   color: #c3c3c3;
   position:absolute; top: 385px; left: 430px;
   text-align: left;
-  font-size: 155%;
+  font-size: 24.8px;
   font-family: "Arial";
 }
 #webImg {
@@ -254,7 +254,7 @@ a:-webkit-any-link {
   color: #c3c3c3;
   position:absolute; top: 628px; left: 430px; 
   font-family: "Myriad Pro Bold";
-  font-size: 195%
+  font-size: 31.2px
 }
 #webParagraph{
   color: #c3c3c3;
@@ -262,7 +262,7 @@ a:-webkit-any-link {
   top: 745px; 
   left: 430px;
   text-align: left;
-  font-size: 155%;
+  font-size: 24.8px;
   font-family: "Arial";
 }
 #Projects {
@@ -283,13 +283,13 @@ button.tablinks {
   font-family: "Myriad Pro Regular";
 }
 h2 {
-  font-size: 450%;
+  font-size: 72px;
   color: #c3c3c3;
   font-family: 'Myriad Pro Bold';
   position:relative; bottom: 120px;;
 }
 h1 {
-  font-size: 900%;
+  font-size: 144px;
   text-align: center;
   color: #c3c3c3;
   font-weight: 0;
@@ -297,7 +297,7 @@ h1 {
 }
 button {
     font-family:'Courier New', Courier, monospace;
-    font-size: 150%;
+    font-size: 24px;
 }
 .tab {
   overflow: hidden;
@@ -323,29 +323,24 @@ button {
 }
 .tabcontent {
   display: none;
-  /*padding: 6px 12px; */
   border: none;
   border-top: none;
 } 
 .tabcontent > span:first-child {
-  color:#c3c3c3;
   position: absolute;
+  color:#c3c3c3;
   font-family: "Myriad Pro Regular";
-  font-size: 200%;
+  font-size: 32px;
   top: -165px;
   left: 80px;
-  
-
 }
 .tabcontent > span:last-of-type {
   color:#c3c3c3;
   position: absolute;
   font-family: "Myriad Pro Regular";
-  font-size: 120%;
-  
+  font-size: 19.2px;
   top: -130px;
   left: 82px;
-  
 }
 .tabcontent #iconImage {
   position: absolute;
@@ -362,7 +357,7 @@ button {
 }
 .elem-group {
   color: #c3c3c3;
-  font-size: 200%;
+  font-size: 32px;
   font-family: "Myriad Pro Regular";
   position: relative;
   top: 0px;
@@ -386,7 +381,7 @@ button {
   color: #c3c3c3;
   position: relative;
   bottom: -10px;
-  font-size: 200%;
+  font-size: 32px;
 }
 #elem3 {
   position: relative;
@@ -400,15 +395,17 @@ button {
 #Contact {
   min-height: 100%;
   position: relative; 
+  padding-bottom: 50px;
 }
 #About {
   min-height: 100%;
   position: relative;
+  padding-bottom: 50px;
 }
 .aboutParagraph {
   color: #c3c3c3;
   position:absolute; top: -15px; left: 0px;
-  font-size: 170%;
+  font-size: 27.2px;
   font-family: "Arial";
   text-align: left;
   padding-left: 15px;
@@ -416,7 +413,7 @@ button {
 #Home {
   min-height: 100%;
   position: relative;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 .footer {
   background-color: #37383a;
